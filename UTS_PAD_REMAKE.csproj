@@ -1,0 +1,166 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\runLeft_6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\runLeft_5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\runLeft_4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\runLeft_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\runLeft_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\runLeft_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\run_6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\run_5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\run_4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\run_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\run_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\run_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\pushLeft_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\pushLeft_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\pushLeft_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\push_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\push_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\push_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\jump_8.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\jump_7.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\jump_6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\jump_5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\jump_4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\jump_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\jump_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\jump_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\idle_4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\idle_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\idle_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\idle_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\hurt_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\hurt_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\hurt_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\background.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\Sprites\background.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

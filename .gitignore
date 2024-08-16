@@ -1,0 +1,99 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific settings
+
+# User-specific files
+.vscode/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio Code workspace settings file
+.vscode/
+
+# Auto-generated VS Code files
+.vscode/*.json
+.vscode/*.code-workspace
+.vscode/*.sln
+
+# Visual Studio Code Snippets folder
+.vscode/snippets/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code output
+.vscode/
+
+# Log files
+*.log
+*.tlog
+
+# Auto-generated files by MSBuild
+*.obj
+*.cache
+*.pdb
+*.ilk
+*.log
+*.vspscc
+*.vssscc
+
+# IIS folder config file
+[Ii][Nn][Ee][Tt][Pp][Uu][Bb]/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Application Insights
+ApplicationInsights.config
+ApplicationInsightsTelemetry.config
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# NuGet Packages
+*.nupkg
+# Include if you have a NuGet.config file
+!NuGet.config
+
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# macOS files
+.DS_Store
+
+# JetBrains Rider
+.idea/
+
+# Rider to ignore
+.idea/*
